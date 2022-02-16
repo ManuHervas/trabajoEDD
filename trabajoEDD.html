@@ -22,6 +22,7 @@
         }
 
         .h1{
+            padding-top: 3%;
             text-align: center;
             font-family: 'Rowdies', cursive;
             color:rgb(223, 185, 19) ;
@@ -47,6 +48,7 @@
 
         #p1{
             font-family: 'Rowdies', cursive;
+            color: rgb(223, 185, 19);
         
         }
 
@@ -57,11 +59,15 @@
         }
         
         #divredes{
-
-            width: 100%;
+            margin: auto;
+            width: 50%;
             height: 70px;
-            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+        }
 
+        #divIns{
+            margin-top: 9px;
         }
 
         #facebook{
@@ -72,9 +78,72 @@
             padding-top: 12px;
         }
 
-        #twitter{
-            width: 60px;
-            height: 45px;   
+        #insta{
+            width: 50px;
+            height: 50px;   
+        }
+
+        #tripadvisor{
+            height: 50px;
+            width: 50px;
+            margin-top: 8px;
+        }
+
+        #barraInicio{
+            width: 100%;
+            background-color: black;
+            height: 30px;
+            text-align: center;
+            position: fixed;
+            margin: 0;
+            top: 0;
+            left: 0;
+        }
+
+        #inicioP{
+            color:rgb(223, 185, 19) ;
+            margin-left: 20px;
+            font-family: 'Rowdies', cursive;
+        }
+
+        #cal6{
+            position: absolute;
+            top: 25%;
+            left: 8%;
+        }
+
+        #cal2{
+            position: absolute;
+            top: 85%;
+            left: 11%;
+        }
+
+        #cal3{
+            position: absolute;
+            top: 34%;
+            left: 80%;
+
+        }
+
+        #cal4{
+            position: absolute;
+            top: 85%;
+            left: 79%;
+
+        }
+
+        #calaveras{
+        width: 50%;
+    }
+
+        #final{
+            height: 220px;
+            width: 100%;
+            background-color: black;
+            position: absolute;
+            left: 0%;
+            right: 0%;    
+            text-align: center;        
         }
 
 
@@ -84,26 +153,64 @@
 
 <body class="body">
 
-
-    <div id="divredes">
-        
-    <a href="https://m.facebook.com/La-cantina-mejicana-184927991462/timeline">
-        <img src="logos/facebook.png" alt="facebook" id="facebook">
-    </a>
-
-    <a href="">
-        <p><img src="logos/twitter.png" alt="twitter" id="twitter"></p>
-    </a>
-
+    <div id="barraInicio">
+        <a href="trabajoEDD.html"><u id="inicioP">INCIO</u></a>
+        <a href="#carta"><u id="inicioP">CARTA</u></a>
+        <a href="https://www.google.es/maps/place/La+Cantina+Mejicana+del+Sur/@37.1737569,-3.5957186,17z/data=!3m1!4b1!4m5!3m4!1s0xd71fcb98f7b5a77:0xf77604b1159a1a26!8m2!3d37.1737429!4d-3.5935199"><u id="inicioP">UBICACIÓN</u></a>
     </div>
+
+
 
 <h1 class="h1">BIENVENIDOS A LA MEJOR COMIDA MEXICANA DE TODO VILCHES</h1>
 
-    <div class="logo">
-        
-        <img src="imagenes/logo.jpeg" alt="logo">
+<div id="divredes">
+    <div>
+    <a href="https://m.facebook.com/La-cantina-mejicana-184927991462/timeline">
+        <img src="logos/facebook.png" alt="facebook" id="facebook">
+    </a>
+    </div>   
 
+    <div id="divIns">
+    <a href="https://www.instagram.com/lacantinamexicanasev/">
+        <img src="logos/insta.png" alt="insta" id="insta" >
+    </a>
     </div>
+
+    <div>
+        <a href="https://www.tripadvisor.es/Restaurant_Review-g187441-d4080070-Reviews-La_Cantina_Mejicana_del_Sur-Granada_Province_of_Granada_Andalucia.html">
+            <img src="logos/trip.png" alt="tripadvisor" id="tripadvisor">
+        </a>
+    </div> 
+
+</div>
+
+<br>
+
+<div id="cipotikos">
+    <div class="logo">
+        <img src="imagenes/logo.jpeg" alt="logo">
+    </div>
+
+    <div id="cal6">
+        <img src="imagenes/cal6.png" alt="calavera6" id="calaveras">
+    </div>
+
+    <div id="cal2">
+        <img src="imagenes/cal2.png" alt="calavera2" id="calaveras" style="width: 23%;" >
+    </div>
+
+    <div id="cal3">
+        <img src="imagenes/cal3.png" alt="calavera3" id="calaveras" style="width: 35%;" >
+    </div>
+
+    <div id="cal4">
+        <img src="imagenes/cal4.png" alt="calavera4" id="calaveras" style="width: 45%;" >
+    </div>
+    
+    
+
+</div>
+
 
     <br><br><br><br>
 
@@ -119,8 +226,14 @@
 
     <br><br><br><br><br>
 
+<div id="final">
     <p id="p1"> Dirección: Aveneida El Fary, 12</p>
+    <br>
+    <p id="p1">Horarios:</p>
+    <p id="p1">Martes a Sabados: 13:30 - 18:00  y  20:30 - 00:30</p>
+    <p id="p1">Lunes y Domingos cerrados por descanso</p>
+    <br>
+</div>
 
-    
 </body>
 </html>
